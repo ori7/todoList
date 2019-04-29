@@ -1,0 +1,18 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"> Name: {{ todo.name }} </h5>
+    <div class="card-text">
+      <span class="font-weight-bold"> Desctiption: </span>
+      <div class="offset-1">
+        {{ todo.description }}
+      </div>
+    </div>
+    <div class="card-text">
+      <span class="font-weight-bold"> Date: </span>
+      <div class="offset-1">
+        {{ todo.date }}
+      </div>
+    </div>
+    <button type="button" class="btn btn-danger offset-1" (click)='delite()'>Delite</button>
+  </div>
+</div>
